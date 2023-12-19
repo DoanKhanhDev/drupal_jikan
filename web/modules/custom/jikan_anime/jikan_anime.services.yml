@@ -1,0 +1,5 @@
+services:
+  jikan_anime.api:
+    class: Drupal\jikan_anime\JikanApi
+    arguments: [ '@http_client' ]
+

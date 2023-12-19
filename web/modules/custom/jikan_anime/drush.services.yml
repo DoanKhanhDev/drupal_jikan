@@ -1,0 +1,12 @@
+services:
+  jikan_anime.command.import_anime:
+    class: Drupal\jikan_anime\Commands\JikanAnimeCommand
+    arguments: [ '@?jikan_anime.api', '@entity_type.manager' ]
+    tags:
+      - { name: drush.command }
+
+  jikan_anime.commands.import_genre:
+    class: Drupal\jikan_anime\Commands\JikanAnimeGenreCommand
+    arguments: [ '@?jikan_anime.api', '@entity_type.manager' ]
+    tags:
+      - { name: drush.command }

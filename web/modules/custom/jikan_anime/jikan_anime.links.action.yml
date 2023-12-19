@@ -1,0 +1,5 @@
+jikan_anime.add_form:
+  title: 'Add jikan anime'
+  route_name: entity.jikan_anime.add_form
+  appears_on:
+    - entity.jikan_anime.collection

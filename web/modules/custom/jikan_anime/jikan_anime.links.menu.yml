@@ -1,0 +1,11 @@
+entity.jikan_anime.settings:
+  title: 'Jikan anime'
+  description: 'Configure a Jikan anime entity type.'
+  route_name:  entity.jikan_anime.settings
+  parent: system.admin_structure
+
+entity.jikan_anime.collection:
+  title: 'Jikan animes'
+  description: 'List of jikan animes.'
+  route_name: entity.jikan_anime.collection
+  parent: system.admin_content

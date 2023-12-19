@@ -1,0 +1,3 @@
+administer jikan_anime:
+  title: 'Administer jikan animes'
+  restrict access: true

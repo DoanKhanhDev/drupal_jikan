@@ -1,0 +1,22 @@
+entity.jikan_anime.settings:
+  title: 'Settings'
+  route_name: entity.jikan_anime.settings
+  base_route: entity.jikan_anime.settings
+entity.jikan_anime.view:
+  title: 'View'
+  route_name: entity.jikan_anime.canonical
+  base_route: entity.jikan_anime.canonical
+entity.jikan_anime.edit_form:
+  title: 'Edit'
+  route_name: entity.jikan_anime.edit_form
+  base_route: entity.jikan_anime.canonical
+entity.jikan_anime.delete_form:
+  title: 'Delete'
+  route_name: entity.jikan_anime.delete_form
+  base_route: entity.jikan_anime.canonical
+  weight: 10
+entity.jikan_anime.collection:
+  title: 'Jikan animes'
+  route_name: entity.jikan_anime.collection
+  base_route: system.admin_content
+  weight: 10

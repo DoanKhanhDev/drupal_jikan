@@ -1,0 +1,7 @@
+entity.jikan_anime.settings:
+  path: 'admin/structure/jikan-anime'
+  defaults:
+    _form: '\Drupal\jikan_anime\Form\JikanAnimeSettingsForm'
+    _title: 'Jikan anime'
+  requirements:
+    _permission: 'administer jikan_anime'
